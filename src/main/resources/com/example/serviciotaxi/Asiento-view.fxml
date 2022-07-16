@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="24.0" layoutY="146.0" prefHeight="12.0" prefWidth="37.0" style="-fx-background-color: #000;" />
+      <BorderPane layoutX="312.0" layoutY="146.0" prefHeight="12.0" prefWidth="37.0" style="-fx-background-color: #000;" />
+      <Circle fill="#d9d9d9" layoutX="187.0" layoutY="197.0" radius="144.0" stroke="BLACK" strokeType="INSIDE" />
+      <BorderPane layoutX="42.0" layoutY="175.0" prefHeight="427.95" prefWidth="290.07" style="-fx-background-color: D9D9D9;">
+         <top>
+            <BorderPane prefHeight="23.0" prefWidth="297.0" style="-fx-background-color: #000;" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+      <Button layoutX="51.0" layoutY="249.0" minHeight="79.0" mnemonicParsing="false" prefWidth="82.0" style="-fx-background-color: #9A8742;" text="1">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="235.0" layoutY="372.0" minHeight="79.0" mnemonicParsing="false" prefWidth="82.0" style="-fx-background-color: #9A8742;" text="4">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="51.0" layoutY="371.0" minHeight="79.0" mnemonicParsing="false" prefWidth="82.0" style="-fx-background-color: #9A8742;" text="3">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="51.0" layoutY="497.0" minHeight="79.0" mnemonicParsing="false" prefWidth="82.0" style="-fx-background-color: #9A8742;" text="5">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="146.0" layoutY="497.0" minHeight="79.0" mnemonicParsing="false" prefWidth="82.0" style="-fx-background-color: #9A8742;" text="6">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="242.0" layoutY="497.0" minHeight="79.0" mnemonicParsing="false" prefWidth="82.0" style="-fx-background-color: #9A8742;" text="7">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="235.0" layoutY="249.0" minHeight="79.0" mnemonicParsing="false" prefWidth="82.0" style="-fx-background-color: #9A8742;" text="2">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <BorderPane layoutX="30.0" layoutY="205.0" prefHeight="77.0" prefWidth="12.0" style="-fx-background-color: #000;" />
+      <BorderPane layoutX="30.0" layoutY="485.0" prefHeight="77.0" prefWidth="12.0" style="-fx-background-color: #000;" />
+      <BorderPane layoutX="331.0" layoutY="205.0" prefHeight="77.0" prefWidth="12.0" style="-fx-background-color: #000;" />
+      <BorderPane layoutX="331.0" layoutY="485.0" prefHeight="77.0" prefWidth="12.0" style="-fx-background-color: #000;" />
+   </children>
+</AnchorPane>
